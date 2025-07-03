@@ -1,0 +1,218 @@
+/* General Layout */
+.video-container {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  border-radius: 16px;
+  max-width: 1100px;
+  margin: 30px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+h2 {
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  width: 90px;
+  height: auto;
+  display: block;
+  margin: 10px auto 30px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+/* Room Info & Join */
+.room-id-text {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+  margin-top: 15px;
+}
+
+.room-id-input {
+  padding: 12px;
+  width: 260px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.join-button,
+button {
+  padding: 12px 22px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.join-button {
+  background-color: #38a169;
+  color: #fff;
+}
+
+.join-button:hover {
+  background-color: #2f855a;
+}
+
+/* Participant Info */
+.participant-count {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 10px;
+}
+
+/* Video Containers */
+.local-video-container,
+.remote-videos-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.local-video-container h4 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #2d3748;
+}
+
+.local-video,
+.remote-videos-container video {
+  width: 260px;
+  height: 200px;
+  background-color: #e2e8f0;
+  border-radius: 12px;
+  border: 3px solid #4299e1;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.remote-videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Video Controls */
+.video-controls {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.video-controls button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  margin: 0 10px;
+  border-radius: 50px;
+  background-color: #edf2f7;
+  color: #1a202c;
+  transition: 0.3s;
+}
+
+.video-controls button:hover {
+  background-color: #3182ce;
+  color: #fff;
+}
+
+.leave-button {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.leave-button:hover {
+  background-color: #c53030;
+}
+
+/* Chat Section */
+h3 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  color: #2d3748;
+}
+
+/* Badge */
+.participant-badge {
+  background-color: #4299e1;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  margin-left: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .local-video, .remote-videos-container video {
+    width: 100%;
+    height: auto;
+  }
+
+  .room-id-input {
+    width: 90%;
+  }
+
+  .video-controls button {
+    margin: 10px 5px;
+    padding: 10px 16px;
+  }
+}
+.tooltip-btn {
+  position: relative;
+}
+
+.tooltip-btn:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+
+.conference-section {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.main-video-area {
+  flex: 3;
+}
+
+.chat-section {
+  flex: 1;
+  max-width: 300px;
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.chat-title {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+video.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
