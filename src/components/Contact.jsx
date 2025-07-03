@@ -56,7 +56,7 @@ const Contact = () => {
           <div className="contact-card">
             <FaMapMarkerAlt size={28} style={{ marginBottom: '8px', color: '#60a5fa' }} />
             <h4>Office</h4>
-            <p>Mumbai, Maharashtra, India</p>
+            <p>Pune, Maharashtra, India</p>
           </div>
         </section>
 
