@@ -51,7 +51,7 @@ const Contact = () => {
           <div className="contact-card">
             <FaPhoneAlt size={28} style={{ marginBottom: '8px', color: '#60a5fa' }} />
             <h4>Phone</h4>
-            <p>+91-9325520672</p>
+            <p>+91-9325884072</p>
           </div>
           <div className="contact-card">
             <FaMapMarkerAlt size={28} style={{ marginBottom: '8px', color: '#60a5fa' }} />
@@ -63,7 +63,7 @@ const Contact = () => {
        <div className="map-placeholder">
   <iframe
     title="Pune Location"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609836258!2d72.74109828175142!3d19.082197838243936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63a8f87b8c5%3A0xe05fa8e2a0a35e47!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1718770602934!5m2!1sen!2sin"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.6681096708993!2d73.85674317512591!3d18.52043007575459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06c14b1d4ef%3A0x295d02bcebe1eeb9!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1719990660014!5m2!1sen!2sin"
     width="100%"
     height="280"
     style={{ border: 0, borderRadius: '1rem' }}
