@@ -49,17 +49,17 @@ const SharedLayout = ({ children }) => {
                 <Link to="/privacy">Privacy Policy</Link>
               </div>
               <div className="footer-icons">
-                <a href="mailto:kunalkadam2762001@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+                <a href="mailto:sakshifuke680@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
     <FaEnvelope />
   </a>
-  <a href="https://www.linkedin.com/in/kunaldkadam/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+  <a href="https://www.linkedin.com/in/sakshi-fuke-70a409221/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
     <FaLinkedin />
   </a>
-  <a href="https://github.com/kunalk276" target="_blank" rel="noopener noreferrer" title="GitHub">
+  <a href="https://github.com/SakshiFuke" target="_blank" rel="noopener noreferrer" title="GitHub">
     <FaGithub />
   </a>
               </div>
-              <p>© 2025 MeetPro — Built by <strong>Kunal Kadam</strong></p>
+              <p>© 2025 MeetPro — Built by <strong>Sakshi Fuke</strong></p>
             </footer>
         
     </div>
