@@ -10,7 +10,7 @@ const teamMembers = [
   {
     name: 'Sakshi Fuke',
     role: 'Frontend & Backend Developer',
-    img: 'https://media.licdn.com/dms/image/v2/D4D35AQHOTihfvbW0RA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1694517386070?e=1752156000&v=beta&t=aqA_WAHxNnP1emrqp8k48odruVXLOwR0SDVgF4A69uk',
+    img: 'https://media.licdn.com/dms/image/v2/D4D35AQG-k3ZIIMkmEQ/profile-framedphoto-shrink_400_400/B4DZfQpV3BG8Ac-/0/1751552188170?e=1753783200&v=beta&t=_OL7M3Xw8DjuFms0WaRM4hfxatNmWBoNCHfvkTePkrg',
     socials: [
       <a
         href="https://www.linkedin.com/in/sakshi-fuke-70a409221/"
